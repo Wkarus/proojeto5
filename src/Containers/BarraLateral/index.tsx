@@ -11,7 +11,7 @@ const BarraLateral = () => (
                 <FiltroCard />
                 <FiltroCard />
                 <FiltroCard />
-                <FiltroCard ativo/>
+                <FiltroCard />
             </S.Filtros>
         </div>
     </S.Aside>

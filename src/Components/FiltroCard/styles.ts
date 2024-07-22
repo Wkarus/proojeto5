@@ -1,6 +1,6 @@
     import styled from'styled-components'
 
-    import { Props } from '.'
+    import {Props} from '.'
 
     export const Card = styled.div<Props>`
 padding: 8px;
