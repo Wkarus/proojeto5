@@ -1,14 +1,16 @@
-import styled from "styled-components";
+    import styled from'styled-components'
 
-export const Card = styled.div`
-Padding: 8 px;
-border: 1px solid #A1A1A1;
-Background-color: #FCFCFC;
-color: #5E5E5E;
+    import { Props } from '.'
+
+    export const Card = styled.div<Props>`
+padding: 8px;
+border: 1px solid ${(props) => (props.ativo ? '#1E90ff' : '#a1a1a1')};
+Background-color: ${(props) => (props.ativo ? '#fff' : '#fcfcfc')};
+color: ${(props) => (props.ativo ? '#1E90ff' : '#5e5e5e')};
+border-radius: 8px;
 `
 
-export const Contador = styled.span
-`
+export const Contador = styled.span`
 font-weight bold;
 font-size: 24px;
 display:block
